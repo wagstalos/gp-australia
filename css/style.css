@@ -1,0 +1,98 @@
+@font-face {
+    src: url(../fonts/Formula1-Regular.otf);
+    font-family: 'Formula1';  
+    font-weight: normal;
+}
+@font-face {
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto', sans-serif; 
+    font-weight: normal;
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+li {
+    list-style: none;
+    font-size: 15px;
+    color: #F7F7F7;
+}
+b{
+    font-size: 11.5px;
+    font-family: Formula1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.5px;
+    line-height: 14px;
+    /* identical to box height */
+    font-feature-settings: 'kern' off;
+}
+.headerwrap{
+    background: url(../img/pais-background.jpg) no-repeat center top;
+    height: 100vh;
+    background-attachment: relative;
+    background-position: center center;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    z-index: 0;
+}
+.headerwrap:before {
+    content: "";
+    width: 100%;
+    min-height: 100%;
+    /* background: linear-gradient(90deg,transparent,rgba(124, 99, 95, 1)); */
+    background: rgba(31,31,31,0);
+    background: -moz-linear-gradient(top, rgba(31,31,31,0) 0%, rgba(31,31,31,0.89) 50%, rgba(31,31,31,1) 56%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,31,31,0)), color-stop(50%, rgba(31,31,31,0.89)), color-stop(56%, rgba(31,31,31,1)));
+    background: -webkit-linear-gradient(top, rgba(31,31,31,0) 0%, rgba(31,31,31,0.89) 50%, rgba(31,31,31,1) 56%);
+    background: -o-linear-gradient(top, rgba(31,31,31,0) 0%, rgba(31,31,31,0.89) 50%, rgba(31,31,31,1) 56%);
+    background: -ms-linear-gradient(top, rgba(31,31,31,0) 0%, rgba(31,31,31,0.89) 50%, rgba(31,31,31,1) 56%);
+    background: linear-gradient(to bottom, rgba(31,31,31,0) 0%, rgba(31,31,31,0.89) 50%, rgba(31,31,31,1) 56%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#1f1f1f', GradientType=0 );
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/* Produtos */
+/* .flex { 
+	flex:1;
+} */
+.flex-item {
+	margin-top: 20px;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+  	justify-content: center;
+}
+.flex-item li {
+    padding: 10px 0;
+    font-size: 1.125em;
+    border-bottom: .75px solid rgba(247,247,247, 0.8);
+} 
+/* Padding */
+.pr {
+	padding: 0 20px;
+}
+.small-font{
+    font-size: 11.5px;
+}
